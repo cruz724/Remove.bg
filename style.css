@@ -1,0 +1,237 @@
+nav {
+  background-color: white;
+    
+  height: 70px;
+}
+  
+.nav-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 0 2px 2px -1px rgba(125, 125, 125, 0.2);
+}
+  
+.logo img {
+  height: 70px;
+  margin-right: 35px;
+  margin-left: 10px;
+}
+
+.lift-logo{
+  overflow:hidden; 
+  background-position:center center;
+  background-repeat:no-repeat; 
+}
+
+.liftoff{
+  background-size: cover;
+}
+
+.left{
+  display: flex;
+}
+
+.something{
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #454545;
+  font-family:sans-serif
+}
+
+  
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+ 
+.nav-links li {
+  margin-right: 20px;
+}
+  
+.nav-links a {
+  text-decoration: none;
+  color: #454545;
+}
+  
+.auth-links a {
+  text-decoration: none;
+  color: #454545;
+  margin-left: 10px;
+}
+  
+.login {
+  font-size: 16px;
+  color: #454545;
+  font-family:sans-serif;
+  margin-right: 10px;
+}
+  
+.signup {
+  font-size: 16px;
+  color: #454545;
+  font-family:sans-serif;
+}
+
+/*------------------------------------------------------new section-----------------------------------------------------------------*/
+
+.hero-section {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  max-width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+  
+.hero-content {
+  align-items: center;
+  width: 600px;
+}
+  
+.image-container {
+  position: relative;
+  margin-left: 50px;
+}
+  
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+    
+.text-container {
+  margin-left: 30px;
+}
+
+
+.text-container h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #454545;
+  font-family: sans-serif;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.text-container p {
+  font-size: 20px;
+  color: #454545;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+  
+  
+.free-tag {
+  background-color: #ffcc00;
+  color: #454545;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+/*-------------=---------------------------------------------upload container-----------------------------------------------*/
+
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 430px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.secondline {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0%;
+  color: #54616c;
+  font-family:sans-serif;
+}
+    
+.thirdline {
+  font-size: 12px;
+  color: #54616c;
+  font-family:sans-serif;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-family: sans-serif;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.upload-container img.uploadedImage{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.submit-button {
+  margin-top: 70px;
+  padding: 10px 20px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 34px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+}
